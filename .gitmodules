@@ -1,0 +1,6 @@
+[submodule "lib/libmtr"]
+	path = lib/libmtr
+	url = https://github.com/SoshiroFujimori/libmtr
+[submodule "lib/libim"]
+	path = lib/libim
+	url = https://github.com/SoshiroFujimori/libim

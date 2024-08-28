@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.lst": "platformio-debug.disassembly",
+        "*.h": "cpp",
+        "new": "cpp",
+    }
+}
