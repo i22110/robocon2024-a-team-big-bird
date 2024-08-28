@@ -1,8 +1,9 @@
 #ifndef WHEEL_H
 #define WHEEL_H
 
-#include "components/Motor.h"
+#include "components/Motor.h" // Motorクラスのヘッダーファイルをインクルード
 
+// Wheelクラスの定義
 class Wheel {
 private:
   static Motor leftMotor1;  // 左側のモーター1
@@ -11,13 +12,13 @@ private:
   static Motor rightMotor2; // 右側のモーター2
 
 public:
-  static void init();
-  static void forwardL();
-  static void reverseL();
-  static void stopL();
-  static void forwardR();
-  static void reverseR();
-  static void stopR();
+  static void init(); // 初期化メソッド
+  static void forwardL(); // 左側のモーターを前進させるメソッド
+  static void reverseL(); // 左側のモーターを後退させるメソッド
+  static void stopL(); // 左側のモーターを停止させるメソッド
+  static void forwardR(); // 右側のモーターを前進させるメソッド
+  static void reverseR(); // 右側のモーターを後退させるメソッド
+  static void stopR(); // 右側のモーターを停止させるメソッド
 };
 
-#endif
+#endif // WHEEL_H

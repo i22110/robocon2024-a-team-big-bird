@@ -1,18 +1,19 @@
 #ifndef BALLSHOOTER_H
 #define BALLSHOOTER_H
 
-#include "components/Motor.h"
+#include "components/Motor.h" // Motorクラスのヘッダーファイルをインクルード
 
+// BallShooterクラスの定義
 class BallShooter {
 private:
-  static Motor motor;
-  static int sensorPin;
-  static int releasePin;
-  static float releaseLength;
+  static Motor motor;         // モーターのインスタンス
+  static int sensorPin;       // センサーピンの番号
+  static int releasePin;      // リリースピンの番号
+  static float releaseLength; // リリースの長さ
 
 public:
-  static void init();
-  static void shoot();
+  static void init();  // 初期化メソッド
+  static void shoot(); // ボールを発射するメソッド
 };
 
-#endif
+#endif // BALLSHOOTER_H
