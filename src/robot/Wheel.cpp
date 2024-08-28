@@ -1,5 +1,5 @@
-#include <Arduino.h>
 #include "Wheel.h"
+#include <Arduino.h>
 
 Motor Wheel::leftMotor1 = Motor(0, 0);
 Motor Wheel::leftMotor2 = Motor(0, 0);

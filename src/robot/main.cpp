@@ -1,10 +1,10 @@
-#include <Arduino.h>
-#include "components/ImReceiver.h"
-#include "utils/DebugLogger.h"
 #include "BallLoader.h"
 #include "BallShooter.h"
 #include "Controller.h"
 #include "Wheel.h"
+#include "components/ImReceiver.h"
+#include "utils/DebugLogger.h"
+#include <Arduino.h>
 
 ImReceiver receiver(12, 11, 19200);
 
