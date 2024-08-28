@@ -1,5 +1,5 @@
-#include <Arduino.h>
 #include "BallShooter.h"
+#include <Arduino.h>
 
 Motor BallShooter::motor = Motor(0, 0);
 int BallShooter::sensorPin = 0;

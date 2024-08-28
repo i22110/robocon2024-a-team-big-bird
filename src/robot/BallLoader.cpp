@@ -1,5 +1,5 @@
-#include <Arduino.h>
 #include "BallLoader.h"
+#include <Arduino.h>
 
 Motor BallLoader::motor = Motor(0, 0);
 int BallLoader::upperLimitPin = 0;
